@@ -10,9 +10,26 @@ header {
   color: #ffffff;
   display: flex;
   min-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 1.5em;
+  padding: 1.7em 5%;
+  column-gap: 1em;
 }
 
-a {
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.logo {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 2em;
+}
+
+.link, .how-button {
   text-decoration: none;
   color: inherit;
 }
@@ -20,4 +37,11 @@ a {
 .navigation, .how-button {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.how-button {
+  font-size: 0.7em;
+  border: 2px solid #ffffff;
+  border-radius: 0.3em;
+  padding: 1em 2em;
 }
